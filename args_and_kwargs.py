@@ -1,3 +1,7 @@
+# *args -> it allows user to pass multiple non key arguments
+# **kwargs -> it allows user to pass multiple keyword arguments
+#    * is the unpacking operator
+
 def shipping_label(*args,**kwargs):
     for arg in args:
         print(arg,end=" ")
